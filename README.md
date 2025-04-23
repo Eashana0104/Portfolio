@@ -32,3 +32,15 @@ JavaScript libraries for animations and interactivity
 PHP was earlier used for  contact/feedback form processing but now upgraded to node mailer
 
 CSS & HTML for styling and structure
+
+## 🚀 Getting Started
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/Eashana0104/Portfolio.git
+cd Portfolio
+npm install
+npm start
+```
+
