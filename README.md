@@ -31,7 +31,7 @@ JavaScript libraries for animations and interactivity
 
 PHP was earlier used for  contact/feedback form processing but now upgraded to node mailer
 
-CSS & HTML for styling and structure
+CSS for styling 
 
 ## 🚀 Getting Started
 
