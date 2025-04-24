@@ -34,7 +34,7 @@ router.post("/contact", (req, res) => {
   const message = req.body.message;
   const phone = req.body.phone;
   const mail = {
-    from: 'eashanasinghal@gmail.com',
+    from: '**********@gmail.com', //replace with your email 
     to: email,
     subject: "Contact Form Submission - Portfolio",
     html: `<p>Name: ${name}</p>
