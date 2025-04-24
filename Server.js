@@ -15,8 +15,8 @@ console.log(process.env.EMAIL_PASS);
 const contactEmail = nodemailer.createTransport({
   service: 'gmail',
   auth: {
-    user: "eashanasinghal@gmail.com",
-    pass: "rtip ghfo ojpv zegu"
+    user: "********@gmail.com", //change it to your own email
+    pass: "" //create and add your own application password for node mailer via your gmail account
   },
 });
 
