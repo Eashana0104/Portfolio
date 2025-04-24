@@ -35,12 +35,33 @@ CSS for styling
 
 ## 🚀 Getting Started
 
-### 1. Clone the Repository
+### 1. Clone the Repository and run the following commands
 
 ```bash
 git clone https://github.com/Eashana0104/Portfolio.git
+
+```
+
+### 2. Configure Email Settings
+In order to enable email functionality through the contact form, you need to create an application-specific password for your Gmail account.
+
+-Go to your Gmail account settings and generate an application password.
+
+-Once you have the application password, open the Server.js file in the project directory.
+
+-Insert your Gmail email address and the application password in the appropriate section of Server.js.
+
+### 3.  Install Dependencies
+
+```bash
 cd Portfolio
 npm install
+```
+
+### 4. Start the application
+
+```bash
 npm start
 ```
+
 
