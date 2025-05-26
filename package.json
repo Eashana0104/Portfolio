@@ -25,13 +25,12 @@
   },
   "scripts": {
     "start": "concurrently \"npm run server\" \"react-scripts start\"",
+     "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "server": "node Server.js",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
-
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
